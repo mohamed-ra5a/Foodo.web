@@ -274,3 +274,54 @@ top : 0 ;
   border : none ;
 margin-top : 30px ;
 }
+#daytime {
+       background : url("./img/daytime_bg.jpeg") center center/cover fixed no-repeat;
+  color : #fff ;
+   text-align: center ;
+}
+
+#daytime .daytime-items {
+        display: flex ;
+  justify-content : space-evenly ;
+     align-items : center ;
+height : 40vh ;
+}
+
+#daytime .daytime-items h3 {
+     font-size : 32px ;
+  margin : 20px 0 10px ;
+}
+
+#daytime .daytime-items p {
+    font-weight : 500 ;
+}
+
+#gallery {
+         background : url("./img/offer-background.jpg") center center/cover;
+  padding : 8rem 0 6rem;
+}
+#gallery h2 {
+  font-size : 40px ;
+      color : #fff ;
+  text-align : center; 
+     margin-bottom : 30px ;
+}
+
+#gallery .img-gallery {
+       display: flex ;
+  justify-content : center ;
+      align-items : center ;
+  flex-wrap : wrap ;
+}
+
+#gallery .img-gallery img {
+  margin : 20px ;
+     width : 280px ;
+  height : 200px ;
+     border-radius : 15px ;
+   opacity : 0.8 ;
+}
+
+#gallery .img-gallery img:hover {
+    opacity : 1 ;
+}
