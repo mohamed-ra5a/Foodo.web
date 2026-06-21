@@ -89,3 +89,7 @@ The project focuses on creating an attractive landing page experience while main
 ## License
 
 This project is available for educational and personal use.
+
+
+## Author
+Mohamed Mahany
