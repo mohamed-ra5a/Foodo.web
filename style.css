@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght=300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
      margin : 0;
@@ -261,8 +261,6 @@ justify-content: center;
       border-bottom : 1px dashed #c2bdbd;
   padding-bottom: 10px;
      position : relative;
-     width: 100%;
-     text-align: left;
 }
 
 #menu .menu-items .menu-item span {
@@ -273,13 +271,6 @@ justify-content: center;
 
 #menu .menu-items .menu-item p {
   margin-top : 10px;
-}
-
-#menu .menu-items .menu-item .btn {
-  padding: 5px 10px;
-  font-size: 11px;
-  margin-top: 5px;
-  border-radius: 5px;
 }
 
 #menu .btn {
@@ -477,62 +468,63 @@ form button {
   #contact .contact-content {
     flex-direction  : column;
   }
-}
+
   
-@media (max-width: 600px) {
-  #navbar {
-    flex-direction : column;
-  }
-
-  #navbar img {
-    margin-bottom  : 20px;
-  }
-
-  header .content h1 {
-    font-size : 18px;
-  }
-
-  header .content p {
-    font-size : 14px;
-  }
-
-  #about .about-content {
-    flex-direction : column;
-  }
-
-  #about .about-content a {
-    margin : 2rem 0;
-  }
-
-  #about img {
-    display : none;
-  }
-
-  #offers {
-    height : auto;
-    padding : 30px 10px;
-  }
-
-  #offers .offers-items {
-    flex-direction : column;
-  }
-
-  #menu .menu-items .menu-item {
-    margin : 20px 10px;
-  }
-
-  #daytime .daytime-items {
-    display : block;
-    height: auto;
-    padding : 29px 0 ;
+  @media (max-width: 600px) {
+    #navbar {
+      flex-direction : column;
     }
 
-  #daytime .daytime-items .daytime-item {
-    margin-top : 20px;
-  }
+    #navbar img {
+      margin-bottom  : 20px;
+    }
 
-  #contact .contact-info,
-  form {
-    width : 80%;
+    header .content h1 {
+      font-size : 18px;
+    }
+
+    header .content p {
+      font-size : 14px;
+    }
+
+    #about .about-content {
+      flex-direction : column;
+    }
+
+    #about .about-content a {
+      margin : 2rem 0;
+    }
+
+    #about img {
+      display : none;
+    }
+
+    #offers {
+      height : auto;
+      padding : 30px 10px;
+    }
+
+    #offers .offers-items {
+      flex-direction : column;
+    }
+
+    #menu .menu-items .menu-item {
+      margin : 20px 10px;
+    }
+
+    #daytime .daytime-items {
+      display : block;
+      height: auto;
+      padding : 29px 0 ;
+    }
+
+    #daytime .daytime-items .daytime-item {
+      margin-top : 20px;
+    }
+
+    #contact .contact-info,
+    form {
+      width : 80%;
+    }
   }
 }
